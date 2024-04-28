@@ -163,4 +163,4 @@ while my_number_v2 < 11:
 try:
     print(10 / 0)
 except:
-    print("Se a producido un error")
+    print("Se a producido un error el en programa")
