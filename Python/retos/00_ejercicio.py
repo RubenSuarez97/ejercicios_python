@@ -1,6 +1,6 @@
 #---------------------------------------------Ejercicio 1: comentarios, variables, tipos de datos ---------------------------------------------
 
-# ESto es un comentario en python y esta es su URL:  https://www.python.org/
+# Esto es un comentario en python y esta es su URL oficial: https://www.python.org/
 '''
 Esto es un comentario 
 en varias líneas de python.
@@ -28,7 +28,7 @@ my_bool_3: bool = True
 print("Hola, Python!")
 print(26)
 
-#'type' es una función del sistema que me permite ver el tipo de datos de una variable p qie estoy trabajando.
+#'type' es una función del sistema que me permite ver el tipo de datos de una variable.
 print(type(my_string))#<class 'str'>
 print(type(my_number))#<class 'int'>
 print(type(my_bool))#<class 'bool'>
