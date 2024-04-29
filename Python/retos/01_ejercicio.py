@@ -1,5 +1,5 @@
 #--------------------------------------------Operadores y estructuras de control-----------------------------------------------------------
-print('--------------------Operadores aritméticos------------------------')
+
 # Operadores aritméticos
 
 example_1 = 10 + 3 # suma(+) me suma los valores 
@@ -18,8 +18,7 @@ print(f"Division entera: 10 // 3 = {example_5}")
 print(f"Modulo: 10 % 3 = {example_6}")
 print(f"Exponente: 10 ** 3 = {example_7}")
 
-print('----------------Operadores de comparación------------------------')
-
+#----------------------------------------------------------------------------------------------------------------
 # Operadores de comparación 
 
 example_8 = 10 == 3 # Igualdad(==) me compara si los valores son iguales
@@ -36,8 +35,7 @@ print(f"Menor que: 10 < 3 es: {example_11}")
 print(f"Mayor o igual que: 10 >= 3 es: {example_12}")
 print(f"Menor o igual que: 3 <= 3 es: {example_13}")
 
-print('----------------Operadores Lógicos-----------------------')
-
+#-------------------------------------------------------------------------------------------------------------------
 # Operadores Lógicos
 
 example_14 = 100
@@ -54,8 +52,7 @@ print(f"OR: 100 + 200 = 200 o 200 - 100 = 100: {example_14 + example_15 == 200 o
 
 print(f"100 + 200 = 100: {not example_14 + example_15 == 100}")# El resultado es True porque la condición no se cumple.
 
-print('-----------------Operadores de asignación----------------------')
-
+#-------------------------------------------------------------------------------------------------------------------
 # Operadores de asignación 
 
 example_16 = 13 # Asignación 
@@ -76,8 +73,7 @@ print(f"//= :{example_16}")
 example_16 **= 2 # Potencia y asignación
 print(f"**= :{example_16}")
 
-print('-----------------Operadores de identidad----------------------')
-
+#-------------------------------------------------------------------------------------------------------------------
 # Operadores de identidad
 
 example_17 = 16
@@ -87,8 +83,7 @@ print(f"IS: example_17 is 17: {example_17 is 17}") # El resultado es False porqu
 print(f"IS: example_17 is example_18: {example_17 is example_18}") # El resultado es True porque el valor de la variable es 16.
 print(f"IS NOT: example_17 is not = 18: {example_17 is not 18}") # El resultado es True porque el valor de la variable es 16.
 
-print('-----------------Operadores de pertenencia----------------------')
-
+#-------------------------------------------------------------------------------------------------------------------
 # Operadores de pertenencia 
 
 example_list = [1,2,3,4,5,]
@@ -102,8 +97,7 @@ print(f"NOT IN: ¿6 no esta example_list?: {6 not in example_list }") # El resul
 print(f"IN: ¿R esta en example_list_string?: {"R" in example_list_string}") # El resultado es True porque el valor R esta en la lista.
 print(f"NOT IN: ¿P no esta en example_list_string?: {"P" not in example_list_string}") #  el resultado es Tue porque el valor P no esta en la lista.
 
-print('-----------------Operadores de Bit----------------------')
-
+#-------------------------------------------------------------------------------------------------------------------
 # Operadores de Bit
 
 example_19 = 10 # 1010
@@ -116,10 +110,9 @@ print(f"NOT: ~10 = {~10}")
 print(f"Desplazamiento a la derecha: 10 >> 2 = {10 >> 2}")
 print(f"Desplazamiento a la izquierda: 10 << 2 = {10 << 2}")
 
-print("---------------------------EStructuras de control-------------------------------------")
-# Estructuras de control 
-print('----------------Condicionales-----------------------')
-# Condicionales
+#-------------------------------------------------------------------------------------------------------------------
+# Estructuras de control
+#Condicionales
 
 my_list = ["Ruben", "Jesus", "Freddy"]
 my_name = "Ruben"
@@ -130,9 +123,8 @@ if my_name in my_list:
     print(f"{my_name} Si esta en la lista")
 else:
     print(f"Lo siento pero {my_name} no esta en la lista")
-          
-print('----------------Iterativas-----------------------')      
-print('[Tabla de  multiplicar con "for"]')      
+
+ #-------------------------------------------------------------------------------------------------------------------  
 # Iterativas
 
 # FOR: se usa para recorrer estructuras que tienen mas de un elemento o ejecutar una acción varias veces. 
@@ -157,7 +149,7 @@ while my_number_v2 < 11:
         my_number_v3 += 1
     my_number_v3 = 1
 
-
+#-------------------------------------------------------------------------------------------------------------------
 # Manejo de excepciones
 
 try:
