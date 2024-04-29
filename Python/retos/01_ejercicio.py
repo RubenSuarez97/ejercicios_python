@@ -151,8 +151,12 @@ while my_number_v2 < 11:
 
 #-------------------------------------------------------------------------------------------------------------------
 # Manejo de excepciones
-
-try:
-    print(10 / 0)
-except:
+# Nos permite anticipar errores de ejecución, incluso en un programa sintáctica y lógicamente correcto.
+try: # Se intenta ejecutar el código.
+    print(10 / 0) # Se produce un error de ejecución.
+except: # se captura el error.
     print("Se a producido un error el en programa")
+finally: # se ejecuta siempre, haya o no error.
+    print("Ha finalizado el manejo de excepciones")
+
+
