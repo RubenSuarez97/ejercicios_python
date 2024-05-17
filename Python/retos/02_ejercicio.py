@@ -134,3 +134,4 @@ type(20)  # Nos permite saber el tipo de dato que estamos usando en el código.
 "hola".upper() # upper() Convierte una cadena a mayúsculas.
 range(1,4) # Genera una secuencia de números que van desde 0 (o cualquier numero) por defecto hasta el número que se pasa como parámetro menos 1.
 
+#----------------------------------------------------------------------------------------------------------------------- 
