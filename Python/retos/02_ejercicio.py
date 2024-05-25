@@ -1,3 +1,4 @@
+
 '''
 -Crea ejemplos de funciones básicas que representen la diferentes posibilidades del lenguaje:
 Sin parámetros ni retornos.
@@ -126,7 +127,7 @@ print(outer_function(1,2))
 #-----------------------------------------------------------------------------------------------------------------------
 
 # Funciones propias del lenguaje (built-in)
-# Algunas funciones:
+# Algunas funciones vistas en los ejercicios:
 
 print() # Nos permite imprimir por terminal algún resultado.
 len("Hola") # Nos devuelve un valor entero que indica la cantidad de caracteres en la cadena de entrada.
@@ -135,3 +136,54 @@ type(20)  # Nos permite saber el tipo de dato que estamos usando en el código.
 range(1,4) # Genera una secuencia de números que van desde 0 (o cualquier numero) por defecto hasta el número que se pasa como parámetro menos 1.
 
 #----------------------------------------------------------------------------------------------------------------------- 
+
+# Variables globales 
+
+global_var = "python"
+
+def variable_global():
+    print(f'Hello {global_var}!')
+
+variable_global()
+#----------------------------------------------------------------------------------------------------------------------- 
+
+# Variable_local
+
+def variable_local():
+    local_var = "Hello" # Esta variable tiene un alcance local ya que este definida dentro de la función y no se puede llamar fuera de ella.
+    print(f'{local_var} {global_var}!')
+
+variable_local()
+
+# print(local_var) # Automáticamente python nos indica que hay un error debido a que la variable no es global.
+
+#----------------------------------------------------------------------------------------------------------------------- 
+'''
+Crea una función que reciba dos parámetros de tipo cadena de texto  t retorne un numero.
+- la función imprime todo los numero del 1 al 100. Teniendo en cuenta que:
+    - Si el numero es múltiplo de 3, muestra la cadena de texto del primer parámetro.
+    - Si el numero es múltiplo de 5, muestra la cadena del texto del segundo parámetro.
+    - Si el numero es múltiplo de 3 y de 5, muestra las dos cadenas del texto concatenadas.
+    - La función retorna el numero de veces que se ha impreso el numero en lugar de los textos.
+'''
+
+def return_text_number(text_1, text_2):
+    count = 0 
+    for i in range(1,101):
+        if i % 3 == 0 and i % 5 == 0:
+            print(text_1 , text_2)
+        elif i % 3 == 0:
+            print(text_1)
+        elif i % 5 == 0:
+            print(text_2)
+        else:
+            print(i)
+            count += 1
+    return count
+
+print(return_text_number('Fizz', 'Buzz'))
+
+
+
+
+
