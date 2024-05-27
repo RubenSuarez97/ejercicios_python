@@ -12,10 +12,10 @@
 <details class="detalle_1" style="border: none; padding: 10px; ">
 <!--00_EJERCICIO.PY-->
 <summary style="font-weight: bold; color: #fff;"> 
-    <a href="https://github.com/RubenSuarez97/ejercicios_python/blob/main/Python/retos/00_ejercicio.py">00_ejercicio.py</a>
+    <a href="https://github.com/RubenSuarez97/ejercicios_python/blob/main/Python/00_clase.py">00_clase.py</a>
 <details style="border: none; padding: 10px;"> 
 <summary style="font-weight: bold; color: #fff;">
-    <a href="https://github.com/RubenSuarez97/ejercicios_python/blob/main/Python/retos/00_ejercicio.py">comentarios, variables, tipos de datos</a>
+    <a href="https://github.com/RubenSuarez97/ejercicios_python/blob/main/Python/00_clase.py">comentarios, variables, tipos de datos</a>
 </summary>
     <ul style="list-style-type: none; "> 
         <li style="margin-bottom: 5px;">
@@ -37,10 +37,10 @@
   <!--01_EJERCICIO.PY-->  
 <details style="border: none; padding: 10px;">
 <summary style="font-weight: bold; color: #fff;"> 
-    <a href="https://github.com/RubenSuarez97/ejercicios_python/blob/main/Python/retos/01_ejercicio.py">01_ejercicio.py</a>
+    <a href="https://github.com/RubenSuarez97/ejercicios_python/blob/main/Python/01_clase.py">01_clase.py</a>
 <details style="border: none; padding: 10px;">  
 <summary style="font-weight: bold; color: #fff;">
-    <a href="https://github.com/RubenSuarez97/ejercicios_python/blob/main/Python/retos/01_ejercicio.py">Operadores y estructuras de control</a>
+    <a href="https://github.com/RubenSuarez97/ejercicios_python/blob/main/Python/01_clase.py">Operadores y estructuras de control</a>
 </summary>
     <ul style="list-style-type: none;"> 
         <li style="margin-bottom: 5px;">
