@@ -38,4 +38,4 @@ print(type(my_float))#<class 'float'>
 print(my_string_2)
 print(my_number_2)
 print(my_float_2)
-print(my_bool_3)
+print(my_bool_3) 
