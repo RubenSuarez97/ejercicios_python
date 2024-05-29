@@ -41,6 +41,7 @@ El usuario es el encargado de suministrar la información de cada persona.
 Vamos a suponer que el usuario solo podrá ingresar un máximo de tres personas, para así poder comprobar
 fácilmente nuestro programa. Sin embargo, puedes hacerlo sin límite si prefieres:
 '''
+# Creamos el diccionario con listas vacías en su interior
 usuarios = {
     'Nombres' : [],
     'Identificaciones': []

@@ -100,7 +100,7 @@ tupla_cinco = (5, 6, 7)
 print(x,y,z) # 5, 6, 7
 
 #-----------------------------------------------------------------------------------------------------------------------
-# Ejemplos de diccionario (set)
+# Ejemplos de diccionario
 
 my_set = {
     'Nombre': 'Tony',
