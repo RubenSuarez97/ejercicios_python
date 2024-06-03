@@ -73,29 +73,29 @@ print(heroes_marvel)
 
 #-----------------------------------------------------------------------------------------------------------------------
 
-# Ejemplos de Tupla
+# Ejemplos de tuple
 
-tupla = (1,2,3)
-print(tupla) # (1,2,3)
+tuple = (1,2,3)
+print(tuple) # (1,2,3)
 
 # También se pueden declarar sin () separados por coma ','.
-tupla_dos = 1,2,3
-print(tupla_dos) # (1,2,3)
+tuple_dos = 1,2,3
+print(tuple_dos) # (1,2,3)
 
 # Anidadas 
-tupla_tres = 1, 2,('a' , 'b'), 3, 4
+tuple_tres = 1, 2,('a' , 'b'), 3, 4
 
-print(tupla_tres)
+print(tuple_tres)
 
-# Convertir una lista en tupla haciendo uso de al función tuple().
+# Convertir una lista en tuple haciendo uso de al función tuple().
 
-tupla_cuatro = tuple(heroes_marvel) 
-print(tupla_cuatro) # ('Spider-man',)
+tuple_cuatro = tuple(heroes_marvel) 
+print(tuple_cuatro) # ('Spider-man',)
 
-# asignar el valor de una tupla con n elementos a n variables. 
+# asignar el valor de una tuple con n elementos a n variables. 
 
-tupla_cinco = (5, 6, 7)
-(x,y,z) = tupla_cinco
+tuple_cinco = (5, 6, 7)
+(x,y,z) = tuple_cinco
 
 print(x,y,z) # 5, 6, 7
 
