@@ -22,7 +22,7 @@ def contactos_en_agenda():
         print('4. Eliminar un contacto')
         print('5. Salir')
 
-        opción = input('Ingrese una de las opciones: ')
+        opción = input('\nIngrese una de las opciones: ')
 
         match opción:
             case '1':
@@ -71,7 +71,7 @@ def contactos_en_agenda():
                 if nombre in agenda:
                     del agenda[nombre]
                     print('Contacto a sido eliminado')
-           
+                    
             case '5':
                 print('Saliendo de la agenda')
                 break
