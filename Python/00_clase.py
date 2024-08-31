@@ -1,4 +1,4 @@
-#---------------------------------------------Ejercicio 1: comentarios, variables, tipos de datos ---------------------------------------------
+#--------------------------------------------Ejercicio 1: comentarios, variables, tipos de datos ---------------------------------------------
 
 # Esto es un comentario en python y esta es su URL oficial: https://www.python.org/
 '''
