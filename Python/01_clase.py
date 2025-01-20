@@ -8,7 +8,7 @@ example_3 = 10 * 3 # Multiplicación(*) me multiplica los valores
 example_4 = 10 / 3 # División(/) me divide los valores dándome la division completa(3.3333333333333335)
 example_5 = 10 // 3 # División entera(//)  me divide los valores dándome la division entera redondeada a la baja(3)
 example_6 = 10 % 3 # Modulo(%) me devuelve el resto de la division
-example_7 = 10 ** 3 # Exponente(**) me eleva el valor a la potencia
+example_7 = 10 ** 3 # Exponente(**) me eleva el valor a la potencia.
 
 print(f"Suma: 10 + 3 = {example_1}")
 print(f"Resta: 10 - 3 = {example_2}")
