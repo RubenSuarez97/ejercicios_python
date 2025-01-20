@@ -1,7 +1,7 @@
 #----------------------------------------Operaciones con cadenas de caracteres-------------------------------------------
 
 python = '''Es un lenguaje de programación ampliamente utilizado en las aplicaciones
-web, el desarrollo de software, la ciencia de datos entre otros.'''
+web, el desarrollo de software,la ciencia de datos entre otros.'''
 
 print(python)
 
